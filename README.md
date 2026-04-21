@@ -8,7 +8,7 @@ This project classifies SMS messages as Spam or Not Spam using Machine Learning.
 - Logistic Regression
 
 ## Accuracy
-~96%
+~95%
 
 ## Example
 "URGENT! Claim your prize" → Spam
