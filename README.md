@@ -1,4 +1,4 @@
-# CODSOFT
+
 # Spam SMS Detection
 
 This project classifies SMS messages as Spam or Not Spam using Machine Learning.
