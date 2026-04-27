@@ -1,4 +1,4 @@
-# 🤖 Machine Learning Projects Portfolio
+# 🤖 CODSOFT Machine Learning Internship Projects
 
 This repository contains a collection of machine learning projects developed as part of my internship and learning journey, focusing on solving real-world problems using data-driven approaches.
 
