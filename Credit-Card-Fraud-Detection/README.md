@@ -24,10 +24,30 @@ Jupyter Notebook
 
 ## 📊 Results
 
-Logistic Regression achieved better recall, making it more effective in detecting fraudulent transactions.
+Accuracy: ~95–99%
+Logistic Regression achieved higher recall, making it more effective in detecting fraudulent transactions despite some false positives.
+
+---
+
+## 📦 Usage
+
+Run the notebook to train and test the model:
+
+```bash
+jupyter notebook
+```
+
+---
+
+## ⚠️ Limitations
+
+* Dataset is highly imbalanced, affecting model performance
+* Logistic Regression has low precision (more false alarms)
+* Random Forest may miss many fraud cases (low recall)
 
 ---
 
 ## 👩‍💻 Author
 
 Sushma R
+
