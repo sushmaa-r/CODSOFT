@@ -10,11 +10,11 @@ Collection of machine learning projects developed during the CODSOFT Internship,
 
 Classifies SMS messages as **Spam** or **Not Spam** using NLP techniques and Logistic Regression.
 
-### 💳 Credit Card Fraud Detection *(in progress)*
+### 💳 Credit Card Fraud Detection 
 
 Detects fraudulent transactions using machine learning models on imbalanced financial data.
 
-### 📉 Customer Churn Prediction *(in progress)*
+### 📉 Customer Churn Prediction 
 
 Predicts whether a customer will leave a service based on historical behavior and usage patterns.
 
@@ -46,4 +46,4 @@ To build practical machine learning solutions and strengthen understanding of re
 
 ## 👩‍💻 Author
 
-Sushma R
+Sushma R 
