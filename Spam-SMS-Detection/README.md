@@ -1,41 +1,70 @@
-# Spam SMS Detection 📩
+# 📩 Spam SMS Detection (Task 1)
 
-Machine learning model that classifies SMS messages as **Spam** or **Not Spam** using Natural Language Processing techniques and Logistic Regression.
-
----
-
-## 🚀 Features
-
-📩 Classifies incoming SMS messages
-🧹 Text preprocessing (cleaning, stopword removal)
-🔤 TF-IDF based feature extraction
-🤖 Logistic Regression model
-📊 Model evaluation with accuracy & confusion matrix
+This project focuses on building a machine learning model to classify SMS messages as **Spam** or **Not Spam** using Natural Language Processing techniques.
 
 ---
 
-## 🧠 Tech Stack
+## 🎯 Objective
 
-Python
-Scikit-learn
-Pandas & NumPy
-NLTK
-Jupyter Notebook
+To develop a model that can accurately identify spam messages from text data.
+
+---
+
+## 📊 Dataset
+
+* SMS messages labeled as:
+
+  * **Spam**
+  * **Ham (Not Spam)**
+
+---
+
+## 🧪 Steps Performed
+
+* Text Cleaning (removal of punctuation, stopwords)
+* Text Preprocessing
+* Feature Extraction using **TF-IDF**
+* Train-Test Split
+* Model Training & Evaluation
+
+---
+
+## 🤖 Models Used
+
+* Logistic Regression
 
 ---
 
 ## 📊 Results
 
-Accuracy: ~96%
-Model performs well on most messages with some limitations on unseen patterns.
+* Achieved **~96% accuracy**
+* Successfully classifies most spam messages
+
+---
+
+## 🧠 Key Insights
+
+* TF-IDF effectively converts text into numerical features
+* Simple models like Logistic Regression perform well for text classification
+* Preprocessing plays a crucial role in NLP tasks
+
+---
+
+## 🛠️ Tech Stack
+
+* Python
+* Pandas & NumPy
+* Scikit-learn
+* NLTK
+* Jupyter Notebook
 
 ---
 
 ## 📦 Usage
 
-Run the notebook to train and test the model:
+Run the notebook:
 
-```bash
+```bash id="spam_run"
 jupyter notebook
 ```
 
@@ -43,11 +72,12 @@ jupyter notebook
 
 ## ⚠️ Limitations
 
-* May misclassify some messages due to dataset imbalance
-* Limited contextual understanding of new phrases
+* May misclassify new or unseen patterns
+* Limited contextual understanding
 
 ---
 
 ## 👩‍💻 Author
 
 Sushma R
+
