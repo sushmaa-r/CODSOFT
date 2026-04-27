@@ -1,42 +1,75 @@
-# Customer Churn Prediction 📉
+# 💳 Credit Card Fraud Detection (Task 2)
 
-Machine learning model to predict whether a customer will leave a service based on historical customer data.
-
----
-
-## 🚀 Features
-
-📉 Predicts customer churn (Exited: 1 / 0)
-🤖 Models used: Logistic Regression, Random Forest, Gradient Boosting
-📊 Model comparison and evaluation
-🧹 Data preprocessing and feature encoding
+This project is part of my Machine Learning Internship at CodSoft.
 
 ---
 
-## 🧠 Tech Stack
+## 🎯 Objective
 
-Python
-Pandas & NumPy
-Scikit-learn
-Jupyter Notebook
+To build a machine learning model that detects **fraudulent credit card transactions**.
 
 ---
 
-## 📊 Results
+## 📊 Dataset
 
-* Logistic Regression: **81% accuracy**
-* Random Forest: **86.6% accuracy**
-* Gradient Boosting: **86.7% accuracy**
+* **0 → Legitimate**
+* **1 → Fraudulent**
 
-👉 **Final Model:** Gradient Boosting (best performance)
+⚠️ Highly imbalanced dataset.
+
+---
+
+## 🧪 Steps Performed
+
+* Data Cleaning
+* Feature Selection
+* Handling Imbalanced Data
+* Train-Test Split
+* Model Training & Evaluation
+
+---
+
+## 🤖 Models Used
+
+* Logistic Regression
+* Random Forest
+* Decision Tree
+
+---
+
+## 📊 Model Comparison
+
+| Model               | Accuracy | Recall (Fraud) |
+| ------------------- | -------- | -------------- |
+| Logistic Regression | ~96%     | **High**       |
+| Random Forest       | ~99%     | Low            |
+| Decision Tree       | ~99%     | Moderate       |
+
+---
+
+## 🏆 Final Model
+
+**Logistic Regression** (best recall for fraud detection)
+
+---
+
+## 🧠 Key Insights
+
+* Accuracy is misleading for imbalanced data
+* Recall is the most important metric
+* Logistic Regression performs better for detecting fraud
+
+---
+
+## 🛠️ Tech Stack
+
+Python, Pandas, Scikit-learn, Jupyter
 
 ---
 
 ## 📦 Usage
 
-Run the notebook:
-
-```bash
+```bash id="fraud_run"
 jupyter notebook
 ```
 
@@ -44,8 +77,8 @@ jupyter notebook
 
 ## ⚠️ Limitations
 
-* Performance depends on data quality
-* May not generalize perfectly to new datasets
+* False positives possible
+* Depends on dataset quality
 
 ---
 
