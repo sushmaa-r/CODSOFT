@@ -1,39 +1,75 @@
-# Credit Card Fraud Detection 💳
+# 📉 Customer Churn Prediction (Task 3)
 
-Machine learning model to classify credit card transactions as **fraudulent** or **legitimate** using classification algorithms on imbalanced data.
-
----
-
-## 🚀 Features
-
-💳 Detects fraudulent transactions
-⚖️ Handles imbalanced dataset
-🤖 Multiple models (Logistic Regression, Random Forest, Decision Tree)
-📊 Model evaluation using precision, recall & confusion matrix
+This project focuses on predicting whether a customer will leave a service based on historical data.
 
 ---
 
-## 🧠 Tech Stack
+## 🎯 Objective
 
-Python
-Pandas & NumPy
-Scikit-learn
-Jupyter Notebook
+To build a model that identifies customers likely to churn.
 
 ---
 
-## 📊 Results
+## 📊 Dataset
 
-Accuracy: ~95–99%
-Logistic Regression achieved higher recall, making it more effective in detecting fraudulent transactions despite some false positives.
+* Target variable:
+
+  * **0 → Stay**
+  * **1 → Churn (Exited)**
+
+---
+
+## 🧪 Steps Performed
+
+* Data Cleaning
+* Feature Selection
+* Encoding Categorical Variables
+* Train-Test Split
+* Model Training & Evaluation
+
+---
+
+## 🤖 Models Used
+
+* Logistic Regression
+* Random Forest
+* Gradient Boosting
+
+---
+
+## 📊 Model Comparison
+
+| Model               | Accuracy   |
+| ------------------- | ---------- |
+| Logistic Regression | ~81%       |
+| Random Forest       | ~86.6%     |
+| Gradient Boosting   | **~86.7%** |
+
+---
+
+## 🏆 Final Model
+
+**Gradient Boosting** (best overall performance)
+
+---
+
+## 🧠 Key Insights
+
+* Ensemble models perform better on structured data
+* Gradient Boosting provided best balance of performance
+* Model comparison helps in selecting optimal solution
+
+---
+
+## 🛠️ Tech Stack
+
+Python, Pandas, Scikit-learn, Jupyter
 
 ---
 
 ## 📦 Usage
 
-Run the notebook to train and test the model:
-
-```bash
+```bash id="churn_run"
 jupyter notebook
 ```
 
@@ -41,13 +77,11 @@ jupyter notebook
 
 ## ⚠️ Limitations
 
-* Dataset is highly imbalanced, affecting model performance
-* Logistic Regression has low precision (more false alarms)
-* Random Forest may miss many fraud cases (low recall)
+* May not generalize to different datasets
+* Performance depends on feature quality
 
 ---
 
 ## 👩‍💻 Author
 
 Sushma R
-
