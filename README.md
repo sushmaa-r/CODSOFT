@@ -6,7 +6,7 @@ This repository contains a collection of machine learning projects developed as 
 
 ## 🚀 Projects Included
 
-### 📩 Spam SMS Detection
+### 📩 Spam SMS Detection (Task 1)
 
 * Classifies SMS messages as Spam or Not Spam
 * Uses NLP techniques (TF-IDF) and Logistic Regression
@@ -14,7 +14,7 @@ This repository contains a collection of machine learning projects developed as 
 
 ---
 
-### 💳 Credit Card Fraud Detection
+### 💳 Credit Card Fraud Detection (Task 2)
 
 * Detects fraudulent transactions using imbalanced data
 * Compared Logistic Regression, Random Forest, Decision Tree
@@ -22,7 +22,7 @@ This repository contains a collection of machine learning projects developed as 
 
 ---
 
-### 📉 Customer Churn Prediction
+### 📉 Customer Churn Prediction (Task 3)
 
 * Predicts customer churn using customer data
 * Compared Logistic Regression, Random Forest, Gradient Boosting
